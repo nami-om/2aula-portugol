@@ -1,22 +1,11 @@
-// alert("Olá mundo!")
-// alert("SEGUNDA MENSAGEM")
+let vitorias, empates
+let pontos
+vitorias = prompt("Vitórias: ")
+vitorias = Number(vitorias)
 
-// let nome 
+empates = Number(prompt("Empates: "))
 
-// nome = "nami"
+pontos = vitorias*3 + empates
 
-// alert("Nome: " + nome)
-
-// let idade = 17
-// alert("Idade: " + idade)
-
-// alert("Nome: " + nome + "\nIdade: " + idade)
-
-// nome = prompt("Digite seu nome:")
-// alert("Nome digitado: " + nome)
-
-let nota1
-nota1 = prompt("Qual sua primeira nota? ")
-nota1 = Number(nota1)
-nota1 =  nota1 + 1
-alert(nota1)
+alert("Total de pontos: " + pontos)
+//===============================
