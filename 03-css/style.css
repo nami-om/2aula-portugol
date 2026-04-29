@@ -1,0 +1,21 @@
+body{
+    background-color: #cbcbf8;
+    color: #003d75;
+}
+output{
+    color: #003d75;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+}
+button{
+    background-color: #f5c4ff;
+    color: #003d75;
+    font-size: 1.8em;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
