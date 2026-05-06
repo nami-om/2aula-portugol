@@ -133,5 +133,5 @@ function cedulas(){
     //notas de 1
     valorTotal1 = valorTotal / 1
     valorTotal = valorTotal % 1
-    document.getElementById('resultado').innerHTML = "Cédulas: " + valorTotal100 + valorTotal50 + valorTotal20 + valorTotal10 + valorTotal5 + valorTotal2 + valorTotal1
+    document.getElementById('resultado').innerHTML = "Cédulas de 100: " + valorTotal100 + "Cédulas de 50: " + valorTotal50 + "Cédulas de 20: " + valorTotal20 + "Cédulas de 10: " + valorTotal10 + "Cédulas de 5: " + valorTotal5 + "Cédulas de 2: " + valorTotal2 + "Cédulas de 1: " + valorTotal1
 }
