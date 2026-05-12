@@ -135,3 +135,36 @@ function cedulas(){
     valorTotal = valorTotal % 1
     document.getElementById('resultado').innerHTML = "Cédulas de 100: " + valorTotal100 + "Cédulas de 50: " + valorTotal50 + "Cédulas de 20: " + valorTotal20 + "Cédulas de 10: " + valorTotal10 + "Cédulas de 5: " + valorTotal5 + "Cédulas de 2: " + valorTotal2 + "Cédulas de 1: " + valorTotal1
 }
+
+    function starubers(){
+        //infos
+    let distancia, tempoSegundos, tempoMinutos, tempoHoras, tempoDias, tempoMes, tempoAnos
+    velocidadeLuz = 300000
+    //entradas
+    distancia = Number(prompt("Distância: "))
+    //processamentos
+    tempoSegundos = distancia / velocidadeLuz
+    //saidas
+    resposta.innerHTML = '<br>Tempo: ' + tempoSegundos + ' segundo(s)'
+    //segunda saida
+    if(tempoSegundos > 60){
+        tempoMinutos = tempoSegundos / 60
+        resposta.innerHTML += '<br>Ou ' + tempoMinutos + ' minuto(s)'
+    }
+    if(tempoMinutos > 60){
+        tempoHoras = tempoMinutos / 60
+        resposta.innerHTML += '<br>Ou ' + tempoHoras + ' hora(s)'
+    }
+    if(tempoHoras > 24){
+        tempoDias = tempoHoras / 24
+        resposta.innerHTML += '<br>Ou ' + tempoDias + ' dia(s)'
+    }
+    if(tempoDias > 30){
+        tempoMes = tempoDias / 30
+        resposta.innerHTML += '<br>Ou ' + tempoMes + ' mês(s)'
+    }
+    if(tempoMes > 12){
+        tempoAnos = tempoMes / 12
+        resposta.innerHTML += '<br>Ou ' + tempoAnos + " ano(s)"
+    }
+    }
