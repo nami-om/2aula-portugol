@@ -1,6 +1,7 @@
 function incrementarContagem(){
     let cont = 0
-    document.getElementById('p-contagem')
+    cont = cont + 1
+    document.getElementById('p-contagem').innerHTML = cont
 }
 
 
