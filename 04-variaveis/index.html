@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>var</title>
-</head>
-<body>
-    <h1>variaveis</h1>
+    <link rel="stylesheet" href="style.css">
+    <title>Var</title>
+    </head>
+    <body>
+    <h1>Variaveis</h1>
+    emmet vs code
     <hr>
-    <button onclick="incrementarContagem()">+</button>
-    <div></div>
-    <p></p>
-    
+    <button onclick="implementarContagem()">+</button>
+    <button onclick="diminuirContagem()">-</button>
+    <button onclick="resetContagem()">RESETAR</button>
+    <p id="p-contagem">0</p>
+
     <hr>
+    <h2>Vendas Harry Ploter</h2>  
+    <p id="totalVendido">Total de vendas: R$0,00</p>
+    Valor da venda R$  
+    <input id="inputVenda" type="text">
+    <button onclick="registrarVenda()">Cadastrar</button>
+    <p id="p-totalVendido"></p>
+    <div id="listaVendas"></div>
     <script src="script.js"></script>
+
+    <hr>
+    <h2>Copo de Dados</h2>
+    <button onclick="rolarDadosd4()">Dados D4</button>
+    <button onclick="rolarDadosd6()">Dados D6</button>
+    <button onclick="rolarDadosd10()">Dados D10</button>
+    <button onclick="rolarDadosd12()">Dados D12</button>
+
 </body>
 </html>
