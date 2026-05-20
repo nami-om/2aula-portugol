@@ -36,32 +36,48 @@ window.location.reload()
 
 }
 
-let numeroDado, numeroAleatorio
-function rolarDadosd4(){
-    let numeroDado = document.getElementById('numeroDado')
-    numeroAleatorio = Number(Math.ceil(Math.random() * 4))
-    document.getElementById('numeroAleatorio').innerHTML + numeroDado
-}
-
-    function rolarDadosd4(){
+let numeroDado, numeroAleatorio, resultadoGlobal = 0
     numeroDado = document.getElementById('numeroDado')
-    numeroAleatorio = Number(Math.ceil(Math.random() * 4))
-}
-
     function rolarDadosd4(){
-    numeroDado = document.getElementById('numeroDado')
     numeroAleatorio = Number(Math.ceil(Math.random() * 4))
+    numeroDado.innerHTML = numeroAleatorio
+    resultadoGlobal = resultadoGlobal + numeroAleatorio
+    document.getElementById('listaDados').innerHTML += 'Lista de dados: ' + numeroAleatorio.toFixed(2) + '<br>'
+    document.getElementById('totalDados').innerHTML = 'Total de dados: ' + resultadoGlobal.toFixed(2)
+    console.log(numeroDado)
+}
+    function rolarDadosd6(){
+    numeroAleatorio = Number(Math.ceil(Math.random() * 6))
+    numeroDado.innerHTML = numeroAleatorio
+    resultadoGlobal = resultadoGlobal + numeroAleatorio
+    document.getElementById('listaDados').innerHTML += 'Lista de dados: ' + numeroAleatorio.toFixed(2) + '<br>'
+    document.getElementById('totalDados').innerHTML = 'Total de dados: ' + resultadoGlobal.toFixed(2)
+    console.log(numeroDado)
+}
+    function rolarDadosd10(){
+    numeroAleatorio = Number(Math.ceil(Math.random() * 10))
+    numeroDado.innerHTML = numeroAleatorio
+    resultadoGlobal = resultadoGlobal + numeroAleatorio
+    document.getElementById('listaDados').innerHTML += 'Lista de dados: ' + numeroAleatorio.toFixed(2) + '<br>'
+    document.getElementById('totalDados').innerHTML = 'Total de dados: ' + resultadoGlobal.toFixed(2)
+    console.log(numeroDado)
+}
+ function rolarDadosd12(){
+    numeroAleatorio = Number(Math.ceil(Math.random() * 12))
+    numeroDado.innerHTML = numeroAleatorio
+    resultadoGlobal = resultadoGlobal + numeroAleatorio
+    document.getElementById('listaDados').innerHTML += 'Lista de dados: ' + numeroAleatorio.toFixed(2) + '<br>'
+    document.getElementById('totalDados').innerHTML = 'Total de dados: ' + resultadoGlobal.toFixed(2)
+    console.log(numeroDado)
+}
+function resetDados(){
+window.location.reload()
 }
 
-    function rolarDadosd4(){
-    numeroDado = document.getElementById('numeroDado')
-    numeroAleatorio = Number(Math.ceil(Math.random() * 4))
+function valorApostado(){
 
+    
 }
-
-
-
-
 
 
 
