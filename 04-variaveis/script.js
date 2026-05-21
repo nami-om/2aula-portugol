@@ -74,10 +74,32 @@ function resetDados(){
 window.location.reload()
 }
 
-function valorApostado(){
+let valorDaAposta = Number(document.getElementById('valorDaAposta').value)
+let numeroAleatorioDino
+function registrarAposta(){
+numeroAleatorioDino = Number(Math.ceil(Math.random()*1))
 
-    
+console.log(numeroAleatorioDino)
 }
+function botaoespino(){
+    if (numeroAleatorioDino == 1){
+        valorDaAposta = valorDaAposta * 2
+        document.getElementById('valorRecebido').innerHTML = 'valor a receber' + valorDaAposta
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
