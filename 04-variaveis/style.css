@@ -1,9 +1,22 @@
 body{
     background-color: rgb(247, 189, 167);
-    color: #darkred;
+    color: darkred;
+    font-size: large;
 }
 button{
     background-color: darkred;
     color: #ffff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.05;
+    border-radius: 7px;
+}
+
+#oficina{
+    display: flex;
+    flex-direction: column;
 }

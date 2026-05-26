@@ -35,21 +35,45 @@
     <output id="numeroDado"></output>
     <p id="totalDados"></p>
     <div id="listaDados"></div>
-     <hr>
-     <h2>Jogo do Dino</h2>
-     <p id="valorRecebido"></p>
-     <input type="text" name="" id="valorDaAposta">
-     <button onclick="registrarAposta()">Apostar</button>
-     <button onclick="botaoespino()">Espinossauro</button>
-     <button>T-rex</button>
-     <button>Braquiossauro</button>
-     <button>Velocirraptor</button>
-     <button>Estegossauro</button>
-     <button>Triceratops</button>
-     <button>Anquilossauro</button>
-     <button>Parassaurolofo</button>
-     <button>Alossauro</button>
-     <button>Carnotauro</button>
+
+    <hr>
+    <p>Digite o quanto deseja apostar:</p>
+    <label for=""></label>
+    <input id="input_aposta" type="text">
+    <button onclick="registrar_aposta()">Apostar</button>
+
+    <p id="aposta_recebida">Valor a receber: R$</p>
+
+    <p>Escolha seu dinossauro:</p>
+
+    <button onclick="botao_espinossauro()">Espinossauro</button>
+    <button onclick="botao_trex()">T-Rex</button>
+    <button onclick="botao_braquiossauro()">Braquiossauro</button>
+    <button onclick="botao_velociraptor()">Velociraptor</button>
+    <button onclick="botao_estegossauro()">Estegossauro</button>
+    <button onclick="botao_triceratops()">Triceratops</button>
+    <button onclick="botao_anquilossauro()">Anquilossauro</button>
+    <button onclick="botao_parassaurolofo()">Parassaurolofo</button>
+    <button onclick="botao_alossauro()">Alossauro</button>
+    <button onclick="botao_carnotauro()">Carnotauro</button>
+
+    <hr>
+    <input type="text" id="totalv">
+    <button onclick="repasseNormal()">Lançamento</button>
+    <button onclick="repasseSeguradoras()">Lançamento Seguradoras</button>
+    <div id="oficina">
+    <output id="valort">Valor do recibo: R$</output>
+    <output id="repassec">Valor do repasse para o Seu Celso: R$</output>
+    <output id="desconto">Valor faturado: R$</output>
+    <output id="clientela">Clientes: 0</output>
+    <output id="desconte"></output>
+    <output id="faturamenton">Valor total faturado: R$ </output>
+    <output id="totals">Valor Faturado por Seguradora: R$</output>
+    <output id="faturaseg">Valor Total Faturado por seguradora: R$</output>
+    <output id="faturaof">Valor Total Faturado da oficina: R$</output>
+    </div>
+   
+    
 
 
     <script src="script.js"></script>
