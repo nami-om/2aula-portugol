@@ -1,0 +1,58 @@
+
+.btn1{
+    background-color: coral;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn1:hover{
+    background-color: brown;
+    box-shadow: #ff1d1dda 0px 0px 10px;
+    scale: 1.06;
+}
+
+body{
+    background-color: rgb(255, 225, 180);
+}
+
+.btn2{
+    background-color: rgb(255, 188, 101);
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 152, 35);
+    box-shadow: #ff590cda 0px 0px 10px;
+    scale: 1.06;
+}
+
+.btn3 {
+    background-color: rgb(162, 201, 126);
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn3:hover{
+    background-color: rgb(84, 133, 72);
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: #239201da 0px 0px 10px;
+}
