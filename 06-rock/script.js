@@ -1,7 +1,7 @@
 
 
 function iniciar(){
-const escolha = 0
+let escolha = 0
 
 escolha = Number(prompt("\nRoque já tem a Jota Qwert confirmada e vai atrás da possível segunda atração do Rock in Reels." +
 
@@ -55,7 +55,7 @@ escolha = Number(prompt("\nRoque aceita e marca Yasmina e os Manos em todas as p
 }if(escolha == 5){
 escolha = Number(alert("\nRoque não entende a intenção de Yasmina, fica receoso e acaba rejeitando a proposta. Por conta desta decisão o Rock in Reels não viraliza. Acontece, duas boas bandas tocam, mas o evento nunca explode para o sucesso que poderia ter sido." +
 
-                         "\n\nFim."))
+                         "\n\nFIM."))
 
 }if(escolha == 6){
 escolha = Number(alert("\nRoque lutou a vida inteira, tocando músicas que não gostava para poder alcançar seu próprio sucesso sem que ninguém pudesse jogar em sua cara que ele só chegou lá por causa do seu pai." +
@@ -70,12 +70,12 @@ escolha = Number(alert("\nRoque lutou a vida inteira, tocando músicas que não 
 
                         "\nAs Tias Fofinhas assistiram a transmissão, se emocionaram com a letra e com a emoção genuína de Roque e o perdoaram. Prometeram tocar no Rock in Reels se ele quiser retomar seu projeto." +
 
-                         "\n\nFim."))
+                         "\n\nFIM."))
 
 }if(escolha == 7){
 escolha = Number(alert("\nRoque coloca o orgulho de lado e se dobra à proposta de seu pai, assina o contrato e consegue o financiamento para a realização do evento. O festival atinge um sucesso gigantesco, porém somente no submundo da música." +
 
-                         "\n\nFim."))
+                         "\n\nFIM."))
 
 }if(escolha == 8){
 escolha = Number(prompt("\nRoque decide arriscar aceitando a desconhecida banda Horrível Trio e o resultado foi maravilhoso. A música é realmente relaxante mas não tediosa e os músicos são muito virtuosos!" +
@@ -88,7 +88,19 @@ escolha = Number(prompt("\nRoque decide arriscar aceitando a desconhecida banda 
                          "\n- Não: 11"))
 
 }if(escolha == 9){
+escolha = Number(alert("\nRoque resolve não arriscar e não inclui a Horrível Trio no evento. O evento tem alguma relavância por conta do alcance e engajamento das redes de Yasmina mas nunca decola completamente. Dada a repercussão obtida com o público nichado o evento vai virar um festival de Rap na próxima edição, mas mantendo o mesmo nome." +
 
+                         "\n\nFIM."))
 
+}if(escolha == 10){
+escolha = Number(alert("\nO corte de duas das bandas originais do festival cria uma onda de revoltas entre os fãs e o festival sobre um enorme cancelamento. Depois dessa repercussão fortemente negativa ninguém mais quer ter seu nome atrelado ao evento e ele nunca mais volta a acontecer." +
+
+                         "\n\nFIM."))
+}if(escolha == 11){
+escolha = Number(alert("\nRoque nega a proposta da amazonia porque não quer virar as costas para quem esteve junto com ele desde o começo! Jeferson Bezerra então resolve usar sua influência e ‘consegue’ a liberação para exibição das músicas das bandas cover." +
+
+                        "\nA veiculação do festival na nova rede social acontece tanto completa como em partes e shorts, tudo vira um grande sucesso e os contatos para uma nova edição já estão fervendo!" +
+
+                         "\n\nFIM."))
 }
 }

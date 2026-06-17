@@ -1,0 +1,35 @@
+body{
+    background-color: coral;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: rgb(255, 159, 70);
+    scale: 1.06;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+button:hover{
+    scale: 1.05;
+    border-radius: 15px;
+    background-color: brown;
+    box-shadow: #ff1d1dda 0px 0px 10px;
+}
+.vomimata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+}
+
