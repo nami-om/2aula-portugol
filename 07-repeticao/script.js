@@ -77,7 +77,7 @@ while(contador < 10){
 }
 
 function exercicio6(){
-    let i = 1
+let i = 1
 while(i < 20){
     console.log(i);
     i+=2
@@ -90,4 +90,62 @@ while(contador > 0){
     contador--
     alert("Valor: " + contador)
 }
+}
+
+function exercicio8(){
+fatorial
+}
+
+function exercicio9(){
+let contador = 0
+while(contador < 100){
+    contador++     
+if(contador%5 == 0 && contador%3 == 0){
+    alert("fizzbuzz " + contador)
+}
+else if(contador%3 == 0){
+    alert("fizz " + contador)
+}
+else if(contador%5 == 0){
+    alert("buzz " + contador)
+}
+else{
+    alert(contador)
+}
+}
+}
+
+function exercicio10(){
+    let i = 0
+    let total = 0
+while(i < 10){
+    i++
+    total = total + (1/i)
+    alert(total)
+    }
+
+}
+
+function exercicio11(){
+let contador = 0
+let par = 0
+let impar = 0 
+let valor = 0
+valor = Number(prompt("Quanto?"))
+while(contador < valor){
+    contador++
+if(contador%2 == 0){
+    par++
+    alert("tem par: " + par + " em contador: " + contador)
+    }
+else{
+    impar++
+    alert(" tem impar: " + impar + " em contador: " + contador)
+    }
+}
+}
+
+function exercicio12(){
+    menor e maior
+
 }
