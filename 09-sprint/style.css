@@ -1,7 +1,32 @@
-.saida{
-
+body{
+    background-color: coral;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+}
 
+.saida{
+    background-color: rgb(255, 159, 70);
+    scale: 1.06;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.saidaDois{
+    background-color: rgb(255, 159, 70);
+    scale: 1.06;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
 }
