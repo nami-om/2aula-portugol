@@ -1,5 +1,11 @@
-let idades = [18,20,12,35,14,15,38]
+let idades = [24, 13, 8, 42, 10, 17, 23, 16, 11, 20]
 let precos = []
+let diasSemana = ["segunda","terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
+let listaNPares = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+let frutas = ['banana', 'maçã', 'uva']
+let nomes = ['Alice', 'Bob', 'Charlie']
+let nomes2 = ['Dave', 'Eva', 'Frank']
+let idadesAmigos = [21, 19, 20, 24, 16, 17, 19]
 
 
 
@@ -16,6 +22,7 @@ const produtos = [
   "Liquidificador", "Micro-ondas", "Mini Processador", "Aspirador de Pó Vertical", "Ventilador de Mesa"
 ];
 
+
 function criarProdutos(){
     for(let i=0; i<produtos.length; i++){ 
         console.log(produtos[i]);
@@ -24,7 +31,6 @@ function criarProdutos(){
         
     }
 }
-
 
 
 function array00(){
@@ -42,9 +48,7 @@ function array00(){
             //    console.log(idades[i]);
             //}
 }
-    
-
-        
+      
 function addPrecos(){
             let n = Math.ceil(Math.random() * 100)
             
@@ -61,3 +65,60 @@ function addPrecos(){
             }
 }
         
+function diasDaSemana(){
+    console.log(diasSemana)
+}
+
+function criarFeriado(){
+    diasSemana.push("Feriado")
+    
+}
+
+function removerDia(){
+    diasSemana.pop()
+}
+
+function listaPares(){
+    console.log(listaNPares)
+}
+
+function subsNumero(){
+    listaNPares[2] = 12
+}
+
+function listaFrutas(){
+    console.log(frutas)
+}
+
+function addMorango(){
+frutas.push("Morango")
+}
+
+function removerFruta(){
+    frutas.splice(1, 1)
+}
+
+function listaNomes(){
+    console.log(nomes)
+}
+
+function addNomes(){
+    let i = 0
+    while(i < nomes2.length){
+        nomes.push(nomes2[i])
+        i++
+    }
+}
+
+function listaAmigos(){
+    console.log(idadesAmigos)
+}
+
+function somaAura(){
+    let i = 0, resposta = 0
+    while( i < 2){
+        resposta = resposta + idadesAmigos[i]
+        i++
+    }
+    console.log(resposta)
+}
