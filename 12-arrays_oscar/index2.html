@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head></head>
+
+<body>
+    <div class="card">
+        <h1>Buscar Indices</h1>
+        <div class="array-container" id="lista"></div>
+        <select id="seletor">
+        </select>
+        <button onclick="buscarIndice()">Buscar Indice</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        const personagens = [
+            'Kowalski',
+            'Dora',
+            'Gessy',
+            'Lidia'
+        ];
+
+        const lista = document.getElementById('lista');
+        const seletor = document.getElementById('seletor');
+
+        for (let i = 0; i < personagens.length; i++) {
+            const nome = personagens[i];
+            const celula = document.createElement('div');
+            celula.className = 'celula';
+            celula.id = 'item - ' + i;
+            celula.innerHTML = `<span class = 'valor' >${nome}</span><span
+        class = 'idx' >[${i}]</span`;
+            lista.appendChild(celula);
+
+            const opt = document.createElement('option');
+            opt.value = nome;
+            opt.textContent = nome;
+            seletor.appendChild(opt);
+        }
+
+        function buscarIndice() {
+            const celulas = document.querySelectorAll('.celula');
+            // for (let i = 0; i < celulas.length; i++) {
+            //     celulas[i].classList.remove('destaque');
+            // }
+            const nomeEscolhido = seletor.value;
+            console.log("nome escolhido" + nomeEscolhido) 
+            let indice;
+            
+            // console.log("" + nomeEscolhido) 
+            let i = 0;
+
+            while (i < personagens.length) {
+                if (personagens[i] === nomeEscolhido) {
+                    indice = i;
+                } 
+                    i++;
+                    
+                console.log("indice" + indice)
+                document.getElementById('resultado').textContent = `'${nomeEscolhido}' está no indice ${indice}`;
+                // document.getElementById('item - ' + indice).classList.add('destaque');
+
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
