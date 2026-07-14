@@ -1,0 +1,34 @@
+
+// C  >>  Create  >> Cadastrar
+// R  >>  Read  >> Ler 
+// U  >>  Update  >> Alterar/atualizar/editar/etc
+// D  >>  Delete  >> Deletar/apagar/excluir/etc
+
+
+// const nomes = []
+// const alturas = []
+
+
+// const dino = { //o que não pode mexer é no "dino"
+//     nome: "Astroleptos",
+//     altura: 60,
+//     cor: "laranja",
+//     custo: 320
+// }
+
+// console.log(dino);
+
+
+const dinos = []
+
+function testar(){
+const novoDino = {
+    nome: "Astroleptos",
+    altura: 60,
+    cor: "laranja",
+    custo: 320
+}
+
+   dinos.push(novoDino)
+   console.log(dinos)
+}

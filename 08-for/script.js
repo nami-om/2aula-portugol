@@ -1,6 +1,6 @@
 const { jsx } = require("react/jsx-runtime")
 
-function sla(){
+function exerc1(){
 let soma = 0
 for(let i = 1; i<=10; i++){
     soma += i
@@ -8,7 +8,7 @@ for(let i = 1; i<=10; i++){
 }
 }
 
-function sla2(){
+function exerc2(){
 let tabuada = 5, soma = 0
 for(let i = 1; i<=10; i++){
     soma = tabuada * i
@@ -16,7 +16,7 @@ for(let i = 1; i<=10; i++){
 }
 }
 
-function sla3(){
+function exerc3(){
     let soma = 0
     for(let i = 1; i<=10; i++){
         soma = i * i
@@ -24,7 +24,7 @@ function sla3(){
     }
 }
 
-function sla4(){
+function exerc4(){
     let tabuada3 = 3, soma
     for(let i = 1; i<=30; i++){
     soma = tabuada3 * i
@@ -32,21 +32,21 @@ function sla4(){
     }
 }
 
-function sla5(){
+function exerc5(){
     let asteristico = "*"
     for(i = 1; i<=10; i++){
         console.log(asteristico)
     }
 }
 
-function sla6(){
+function exerc6(){
     let js = "JavaScript"
     for(let i = 0; i<js.length; i++){
         console.log(js[i])
     }
 }
 
-function sla7(){
+function exerc7(){
     let soma = 0
     for(let i = 0; i<=20; i+=2){
         soma = soma + i
@@ -54,20 +54,20 @@ function sla7(){
     }
 }
 
-function sla8(){
+function exerc8(){
     for(i = 5; i<= 50; i+=5){
         console.log(i)
     }
 
 }
 
-function sla9(){
+function exerc9(){
     for(let i = 1; i<=8; i++){
         console.log("Olá")
     }
 }
 
-function sla10(){
+function exerc10(){
     let soma = 0
     for(i = 1; i<=15; i++){
         if(i%2 != 0){
@@ -77,14 +77,14 @@ function sla10(){
     }
 }
 
-function sla11(){
+function exerc11(){
     let js = ["1","12","123","1234","12345"]
     for(let i = 0; i<5; i++){
         console.log(js[i])
     }
 }
 
-function sla12(){
+function exerc12(){
     let o = "ovo", contador = 0
     for(i = 0; i<o.length; i++){
         if(o[i] == "o"){
@@ -94,7 +94,7 @@ function sla12(){
     }
 }
 
-function sla13(){
+function exerc13(){
     let resposta = 1
     for(i = 1; i<=5; i++){
         resposta *= i
