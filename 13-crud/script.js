@@ -32,3 +32,18 @@ const novoDino = {
    dinos.push(novoDino)
    console.log(dinos)
 }
+
+function cadastrarDino(){
+    const novoDino = {
+        id: 0,
+        nome: document.getElementById('input-nome').value,
+        altura: document.getElementById('input-altura').value,
+        cor: document.getElementById('input-cor').value,
+        custo: document.getElementById('input-custo').value
+    }
+    for (let i = 0; i < dinos.length; i++){
+        novoDino.id++
+    }
+    dinos.push(novoDino)
+    console.log(dinos);
+}

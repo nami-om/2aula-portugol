@@ -29,3 +29,6 @@ else{
         document.getElementById("texto-p").innerHTML = "Esse personagem não existe!"
     }
 }
+
+
+
