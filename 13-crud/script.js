@@ -19,7 +19,7 @@
 // console.log(dino);
 
 
-const dinos = []
+let dinos = []
 
 function testar(){
 const novoDino = {
@@ -35,15 +35,42 @@ const novoDino = {
 
 function cadastrarDino(){
     const novoDino = {
-        id: 0,
+        id: Date.now(), //conta os milisegundos desde 1980 (vai ser necessário mais pra frente)
         nome: document.getElementById('input-nome').value,
-        altura: document.getElementById('input-altura').value,
+        altura: Number(document.getElementById('input-altura').value),
         cor: document.getElementById('input-cor').value,
-        custo: document.getElementById('input-custo').value
+        custo: Number(document.getElementById('input-custo').value),
     }
-    for (let i = 0; i < dinos.length; i++){
-        novoDino.id++
-    }
+ 
     dinos.push(novoDino)
+
     console.log(dinos);
+
+    limparFormulario()
+
+    // document.getElementById('input-nome').value = ''
+    // document.getElementById('input-altura').value = ''
+    // document.getElementById('input-cor').value = ''
+    // document.getElementById('input-custo').value = ''
 }
+
+//mesma coisa que usar o '' para limpar
+function limparFormulario(){
+    document.getElementById('input-nome').value = ''
+    document.getElementById('input-altura').value = ''
+    document.getElementById('input-cor').value = ''
+    document.getElementById('input-custo').value = ''
+
+
+    //serve para o foco do 'mouse' voltar pro ponto que quiser
+    document.getElementById('input-nome').focus()
+}
+
+function mostratTodos(){
+    for(let i = 0; i < dinos.length; i++){
+        //alert(dinos[i].nome)
+        document.getElementById('painel-dinos').innerHTML += dinos[i].nome
+    
+    }
+}
+
