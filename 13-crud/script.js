@@ -66,11 +66,21 @@ function limparFormulario(){
     document.getElementById('input-nome').focus()
 }
 
-function mostratTodos(){
+function mostrarTodos(){
+    document.getElementById('painel-dinos').innerHTML = ''
     for(let i = 0; i < dinos.length; i++){
         //alert(dinos[i].nome)
-        document.getElementById('painel-dinos').innerHTML += dinos[i].nome
-    
+        document.getElementById('painel-dinos').innerHTML +=
+        `<div class="card-dino">
+           <h2>${dinos[i].nome}</h2>
+           <p>Altura: ${dinos[i].altura}</p>
+           <p>Cor: ${dinos[i].cor}</p>
+           <p>Custo: ${dinos[i].custo}</p>
+           <p>${dinos[i].id}</p>
+        </div>
+        `
     }
 }
+
+
 

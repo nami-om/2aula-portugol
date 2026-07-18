@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(253, 226, 191);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-dino{
+    background-color: #f18787;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 0 10px #fc5959;
+    border-radius: 20px;
+    padding: 15px;   
+}
+
+button{
+    background-color: #f18787;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scale: 1.06;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px #fc5959;
+}
+
+#painel-dinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#form{
+    background-color: #fdadad;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 10%;
+}
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
