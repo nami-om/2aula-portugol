@@ -22,6 +22,11 @@
 let dinos = []
 
 function testar(){
+    
+    // localStorage.setItem('teste', 20)
+    // let testeDeLeitura = localStorage.getItem('teste')
+    // console.log(testeDeLeitura)
+
 const novoDino = {
     nome: "Astroleptos",
     altura: 60,
@@ -82,5 +87,12 @@ function mostrarTodos(){
     }
 }
 
+function salvarDados(){
+    localStorage.setItem('dinos', JSON.stringify(dinos))
+}
 
+function carregarDados(){
+    dinos = JSON.pase(localStorage.getItem('dinos'))
+    console.log(dinos);
+}
 
