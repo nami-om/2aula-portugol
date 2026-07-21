@@ -89,6 +89,9 @@ function mostrarTodos(){
 
 function salvarDados(){
     localStorage.setItem('dinos', JSON.stringify(dinos))
+    
+    // let texto = JSON.stringify(dinos)
+    // localStorage.setItem('dinos', texto)
 }
 
 function carregarDados(){
